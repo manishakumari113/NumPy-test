@@ -1,0 +1,200 @@
+Q1. NumPY Stands for?
+A) Numerical Python
+
+Q2. What is a correct syntax to create a NumPy array?
+B) np.array([1, 2, 3, 4, 5])
+
+Q3. Which of the following arrays is a two-dimensional (2-D) array?
+A) [[1, 2, 3], [4, 5, 6]]
+
+Q4. What is a correct syntax to check the number of dimensions in an array?
+B) arr.ndim
+
+Q5. What is the correct syntax to print the first item of an array?
+B) print(myArr[0])
+
+Q6. What is the correct syntax to print the number 8 from the array below:
+arr = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])
+B) print(arr[1, 2])
+
+Q7. What is the correct syntax to print the number [3, 4, 5] from the array below:
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+A) print(arr[2:6])
+
+Q8. Which syntax would print the last 4 numbers from the array below:
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+C) print(arr[4:])
+
+Q9. Which syntax would print every other item from the array below:
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+B) print(arr[::2])
+
+Q10. What is the correct syntax to check the data type of an array?
+A) arr.dtype
+
+Q11. What is the correct syntax to create an array of type float?
+C) arr = np.array([1, 2, 3, 4], dtype=np.float)
+
+Q12. Only one of the following statements is true when it comes to Views in NumPy, which one?
+B) The view SHOULD BE Affected by the changes made to the original array.
+
+Q13. Only one of the following statements is true when it comes to Copies in NumPy, which one?
+C) The copy SHOULD NOT be affected by the changes made to the original array.
+
+Q14. In NumPy, what does the SHAPE of an array mean?
+C) The shape is the number of elements in each dimension.
+
+Q15. What is the correct syntax to return the shape of an array?
+A) arr.shape
+
+Q16. What is the correct method to join two or more arrays?
+A) Concatenate()
+
+Q17. What is the correct method to split arrays?
+A) array_split()
+
+Q18. What is the correct method to search for a certain value in an array?
+A) where()
+
+Q19. What is the correct syntax to return the index of all items that have the value 4 from the array below?
+arr = np.array([1, 4, 3, 4, 5, 4, 4])
+A) np.where(arr==4)
+
+Q19. What is the correct method to sort the elements of an array?
+C) sort()
+
+Q20. When using the NumPy random module, how can you return a random number from 0 to 100?
+A) np.random.randint(100)
+
+Q21. When using the NumPy random module, how can you return a Normal Data Distribution with 1000 numbers, concentrated around the number 50, with a standard deviation of 0.2 ?
+B) random.normal(size=1000, loc=50, scale=0.2)
+
+Q22. What is a correct syntax to mathematically add the numbers of arr1 to the numbers of arr2 ?
+B) np.add(arr1, arr2)
+
+Q23. What is a correct syntax to subtract the numbers from arr1 with the numbers from arr2 ? 
+D) np.subtract(arr1, arr2)
+
+Q24. What is a correct method to round decimals in NumPY ?
+D) np.around()
+
+Q25.  What would be the answer of this cumulative summation in NumPy ?
+B) [1 3 6]
+
+Q26.Which of the function is a function to create a numpy array ? 
+D) All the above
+
+Q27. What is the output of the below code ?
+ np.arange(2, 8)
+B) array([2, 3, 4, 5, 6, 7])
+
+Q28. Find the output of the below code.
+ a = np.array([[[1, 2, 3], [4, 5, 6]]])
+ print(a.ndim)
+C) 3
+
+Q29. What does the function itemsize() return ?
+C) It returns the byte size of each element of the array
+
+Q30. Find the output of the below code 
+ arr = np.array([[1, 2, 3], [4, 5, 6]])
+ print(arr[1, 2])
+A) 6
+
+Q31. What is the ouput of the below code ?
+ np.linspace(1, 5, 5)
+B) array([1, 2, 3, 4, 5])
+
+Q32. Which of the following is code gives an error ?
+D) All the above
+
+Q33. What is the output of the below code ?
+ print(np.zeros(5).dtype)
+D) float64
+
+Q34. Which of the following is not true about the identity matrix?
+B) It contains 1s in all the diagonals
+
+Q35. what is the output of the below code ?
+ np.array([[1, 2, 3], [4, 5, 6]]).ravel()
+A) array([1, 2, 3, 4, 5, 6])
+
+Q36. Which of the following will give the output as 
+ array([[1, 2, 3, 1, 2, 3], [4, 5, 6, 4, 5, 6]])
+B) arr = np.array([[1, 2, 3], [4, 5, 6]]); np.hstack((arr, arr))
+
+Q37. Which of the follwing functions i sused to create an array containing constant value ?
+C) full()
+
+Q38. Which of the following codes give an error ?
+B) a1 = np.array([1, 2, 3, 3]); a2 = np.array([0, 4, 9]); np.add(a1, a2)
+
+Q39. Which of the following is the correct way to transpose of matrix A ?
+C) A.T
+
+Q40. What is the output of the below code snippet ?
+```
+import numpy as np
+arr1 = np.array([7,8,9,10])
+arr2 = np.array([1,2,3,4])
+arr3 = arr1 + arr2
+arr3 = arr3*arr1
+print (arr3[2])
+```
+C) 80
+
+Q41. What does the size attribute in numpy use to find ?
+A) number of items
+
+Q42. What is the output of the below code snippet?
+```
+import numpy as np
+arr = np.array([[4,2,0,5],[1,3,5,7]])
+print (arr.size)
+``` 
+A) 8
+
+Q43. What method is used for changing the shape of numpy arrays?
+D) reshape()
+
+Q44. What is the purpose of zero() function ?
+C) To create a matrix with all elements as 0
+
+Q45. What is the output of the below code ?
+```
+import numpy as np
+a = np.array([1, 2, 3, 4])
+b = np.array([5, 6, 7])
+c = np.array([8, 9, 10, 11, 12])
+p, q, r = np.ix_(a, b, c)
+print(p) 
+```
+D) [[[1]], [[2]], [[3]], [[4]], [[5]], [[6]], [[7]], [[8]], [[9]], [[10]], [[11]], [[12]]]
+
+Q46. NumPy arrays can be ___.
+D) All of the mentioned above
+
+Q47. ```
+import numpy as np 
+x = np.array([[0, 1],
+ [2, 3]])
+np.transpose(x)
+```
+A) array([[0, 2], [1, 3]])
+
+Q48. Observe the following code and identify what will be the outcome?
+```
+import numpy as np 
+a = np.array([10, 20, 30, 40])
+b = np.array([18, 15, 14])
+c = np.array([25, 24, 26, 28, 23])
+x, y, z = np.ix_(a, b, c)
+print(x)
+```
+D) None of the mentioned above
+
+Q49. The most important object defined in NumPy is an N-dimensional array type called?
+A) ndarray
+
+Q50. If a dimension is given as __ in a reshaping operation, the other dimensions are automatically calculated. 
+C) Negative one
